@@ -27,3 +27,9 @@ made using react native
 ### .adding icons using IONICONS from @expo/vector-icons
 
 ### .configuring FlatList
+
+# INSTALLATION
+
+### npm install
+
+### npm start or expo start
