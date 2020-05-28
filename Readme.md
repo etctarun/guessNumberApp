@@ -4,7 +4,7 @@ made using react native
 
 # This project will help in notes of the following:
 
-### .working with screens
+### .working with multiple screens without Navigation
 
 ### .making a card with shadow and reuse
 
@@ -19,3 +19,9 @@ made using react native
 ### .passing the {...props} from child to parent to access all the properties of the field in parent.
 
 ### .using useRef to make a variable not change on rerender.
+
+### .configuring custom fonts using react-native.config.js -> react-native link
+
+### .Make Custom Button component with custom font and design
+
+### .adding icons using IONICONS from @expo/vector-icons
