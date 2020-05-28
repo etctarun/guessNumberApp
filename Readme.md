@@ -22,6 +22,8 @@ made using react native
 
 ### .configuring custom fonts using react-native.config.js -> react-native link
 
-### .Make Custom Button component with custom font and design
+### .Make Custom Button and Text component with custom font and design
 
 ### .adding icons using IONICONS from @expo/vector-icons
+
+### .configuring FlatList
