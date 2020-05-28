@@ -15,3 +15,5 @@ made using react native
 ### .making a header
 
 ### .overlapping style in component using spread operator
+
+### .passing the {...props} from child to parent to access all the properties of the field in parent.

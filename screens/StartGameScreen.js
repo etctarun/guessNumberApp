@@ -12,7 +12,7 @@ import {
 
 import Card from "../components/Card";
 import Colors from "../constants/colors";
-import Input from "../components/Input";
+import InputField from "../components/InputField";
 import NumberContainer from "../components/NumberContainer";
 
 const StartGameScreen = (props) => {
@@ -52,7 +52,10 @@ const StartGameScreen = (props) => {
       <Card style={styles.summaryContainer}>
         <Text> You Seleceted</Text>
         <NumberContainer>{selectedNumber}</NumberContainer>
-        <Button title="START GAME"></Button>
+        <Button
+          title="START GAME"
+          onPress={() => props.onStartGame(selectedNumber)}
+        ></Button>
       </Card>
     );
   }
@@ -67,7 +70,7 @@ const StartGameScreen = (props) => {
         <Text style={styles.title}>Start a New Game</Text>
         <Card style={styles.inputContainer}>
           <Text>Select a Number</Text>
-          <Input
+          <InputField
             style={styles.input}
             blurOnSubmit // close keyboard on submit
             autoCapitalize="none"
